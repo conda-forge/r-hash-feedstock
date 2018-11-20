@@ -14,9 +14,9 @@ source:
   sha256: df93f119d62d4e0d33afcfb5bfd5770565b5a66d766dfb07126b445b572a7d56
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -41,8 +41,7 @@ about:
     in Python but with a purposefully R flavor.  For objects of appreciable size, access
     using hashes outperforms native named lists and vectors.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
