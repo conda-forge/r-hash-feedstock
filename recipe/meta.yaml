@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: hash_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/hash_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/hash/hash_{{ version }}.tar.gz
@@ -43,11 +42,5 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
     - wjurkowski
     - nsoranzo
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
