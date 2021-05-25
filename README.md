@@ -117,5 +117,4 @@ Feedstock Maintainers
 
 * [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@nsoranzo](https://github.com/nsoranzo/)
-* [@wjurkowski](https://github.com/wjurkowski/)
 
