@@ -1,11 +1,11 @@
-About r-hash
-============
+About r-hash-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hash-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=hash
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hash-feedstock/blob/main/LICENSE.txt)
 
 Summary: This package implements a data structure similar to hashes in Perl and dictionaries in Python but with a purposefully R flavor.  For objects of appreciable size, access using hashes outperforms native named lists and vectors.
 
